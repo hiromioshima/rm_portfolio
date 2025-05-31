@@ -4,8 +4,6 @@ $(function() {
 
 
 
-
-
 // ローディングアニメーション
 // タイマー処理
   $(window).on('load', function () {
@@ -75,7 +73,8 @@ $(function(){
 
 
 // sp トップページのワークス スライダー
-$('.top_mockup_wrap1').slick({
+setTimeout(function () {
+  $('.top_mockup_wrap1').slick({
     autoplay: true, // 自動でスクロール
     autoplaySpeed: 0, // 自動再生のスライド切り替えまでの時間を設定
     speed: 5000, // スライドが流れる速度を設定
@@ -94,6 +93,7 @@ $('.top_mockup_wrap1').slick({
       }
     ]
   });
+},1200)
 
 
 // sp ワークス一覧の絞り込み

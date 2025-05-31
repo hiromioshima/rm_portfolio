@@ -23,7 +23,6 @@ dd {
         "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
         "ＭＳ 明朝", serif;
     font-feature-settings: "palt";
-    
 }
 
 /* フォント指定 基本 日本語フォント Zen Kaku Gothic New　ネットから引用 */
@@ -177,6 +176,11 @@ transform-origin: left top; /*左から右に向かう*/
     height: 654px;
     margin-top: 200px;
 }
+.section_contact1{
+    width: 100%;
+    padding-top: 200px;
+    margin: 0 auto;
+}
 .sp_br{
     display: none;
 }
@@ -202,7 +206,7 @@ transform-origin: left top; /*左から右に向かう*/
     width: 30px;
     margin-bottom: 80px;
 }
-.x_logo{
+.tinder_logo{
     width: 30px;
 }
 .main_visual{
@@ -224,7 +228,7 @@ transform-origin: left top; /*左から右に向かう*/
     font-size: 1.5vw;
     margin-top: 12px;
     color: #F9F8F6;
-    font-family: "Cormorant Garamond";
+    font-family: "Cormorant Garamond", serif;
 }
 .fv_scroll_mark{
     width: 10%;
@@ -307,9 +311,9 @@ transform-origin: left top; /*左から右に向かう*/
 .scroll_text li{
     color: #545D7B;
     opacity: 0.2;
-    font-size: 6.7vw;
+    font-size: 90px;
     margin-right: 20px;
-    font-family: "Cormorant Garamond";
+    font-family: "Cormorant Garamond", serif;
     font-weight: bold;
 }
 
@@ -351,7 +355,7 @@ transform-origin: left top; /*左から右に向かう*/
     font-size: 48px;
     font-weight: bold;
     color: #545D7B;
-    font-family: "Cormorant Garamond";
+    font-family: "Cormorant Garamond", serif;
     position: relative;
     display: inline-block;
 }
@@ -382,7 +386,7 @@ transform-origin: left top; /*左から右に向かう*/
 .profile_text{
     font-size: 14px;
     line-height: 170%;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     margin-top: 24px;
 }
 /* ボタン */
@@ -399,7 +403,7 @@ a.btn_01 {
 	color: #545D7B;
 	border-radius: 100vh;
 	transition: 0.5s;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
 }
 a.btn_01:hover {
 	color: #F9F8F6;
@@ -411,7 +415,7 @@ a.btn_01:hover {
     font-size: 48px;
     text-align: center;
     color: #545D7B;
-    font-family: "Cormorant Garamond";
+    font-family: "Cormorant Garamond", serif;
     position: relative;
 }
 .h2_center::before {
@@ -487,7 +491,7 @@ a.btn_01:hover {
     font-size: 48px;
     text-align: center;
     color: #f9f8f6;
-    font-family: "Cormorant Garamond";
+    font-family: "Cormorant Garamond", serif;
     position: relative;
 }
 .h2_white::before {
@@ -640,7 +644,7 @@ a.contact_button:hover {
     margin-left: 26px;
     text-align: start;
     line-height: 170%;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
 }
 .tool_box img{
     width: 40px;
@@ -915,8 +919,9 @@ a.contact_button:hover {
 
 /* pc　コンタクトページ */
 form {
-    width: 70%;
-    margin: 10% auto;
+    max-width: 800px;
+    padding-top: 80px;
+    margin: 0 auto;
 }
 .form_wrap{
     margin-top: 40px;
@@ -925,7 +930,6 @@ form {
     font-size: 14px;
     line-height: 170%;
     text-align: center;
-    margin-top: 80px;
 }
 .data_wrap{
     display: flex;
@@ -990,7 +994,7 @@ input[name=question] {
     border-bottom-left-radius: 0;
     padding-left: 0.5rem;
     &::placeholder {
-        text-align: center;
+        text-align: center; 
     }
 }
 
@@ -1064,7 +1068,7 @@ input[name=question] {
 .instagram_logo_hamburger{
     width: 24px;
 }
-.x_logo_hamburger{
+.tinder_logo_hamburger{
     width: 24px;
 }
 .wrapping_tape_hamburger{
@@ -1120,7 +1124,6 @@ input[name=question] {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    
 }
 .sp-nav ul{
     flex-direction: column;
@@ -1150,6 +1153,9 @@ input[name=question] {
 .section_contact{
     margin-top: 160px;
 }
+.section_contact1{
+    padding-top: 160px;
+}
 
 /*  1100px以下 ファーストビュー*/
 .main_visual {
@@ -1163,6 +1169,11 @@ input[name=question] {
     font-size: 1.8vw;
 }
 
+/*  1100px以下 コンセプト*/
+.scroll_text li {
+    font-size: 70px;
+}
+
 /*  1100px以下 アバウト*/
 .section5{
     padding-top: 160px;
@@ -1174,7 +1185,7 @@ input[name=question] {
     font-size: 48px;
     text-align: center;
     color: #545D7B;
-    font-family: "Cormorant Garamond";
+    font-family: "Cormorant Garamond", serif;
     position: relative;
     display: block;
     margin-bottom: 90px;
@@ -1204,7 +1215,7 @@ input[name=question] {
     text-align: center;
     font-size: 24px;
     color: #545D7B;
-    font-family: "Cormorant Garamond";
+    font-family: "Cormorant Garamond", serif;
 }
 
 /* 1100px以下 ワークス*/
@@ -1384,6 +1395,12 @@ input[name=question] {
 
 
 /* sp　コンタクトページ */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 .data_wrap{
     display: block;
 }
@@ -1461,6 +1478,13 @@ a.btn_01 {
     letter-spacing: 0.06em;
 }
 
+.padding_box{
+    padding-top: 8px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+
 /* sp ファーストビュー */
 .sp_main_visual{
     max-width: 100%;
@@ -1503,7 +1527,13 @@ a.btn_01 {
 .concept_word2{
     margin-top: 32px;
 }
-
+.scroll_text {
+    height: 60px;
+     margin-top: 8%;
+}
+.scroll_text li {
+    font-size: 50px;
+}
 /* sp アバウト */
 .h2_left{
     display: none;
@@ -1549,6 +1579,12 @@ a.btn_01 {
 .h2_center{
     font-size: 30px;
 }
+.filter-list {
+    gap: 4%;
+}
+.filter-list li {
+    width: 120px;
+}
 .top_mockup_wrap1_1100{
     display: none;
 }
@@ -1571,12 +1607,13 @@ a.btn_01 {
 }
 .works_btn_box{
     padding-right: 30px;
+    padding-right: 0%;
 }
 
 /* sp コンタクト */
 .section_contact{
     height: auto;
-    padding-top: 80ox;
+    padding-top: 80px;
 }
 .h2_white{
     font-size: 30px;
@@ -1722,7 +1759,12 @@ a.btn_01 {
     margin-top: 60px;
 }
 
-
+/* sp コンタクトページ;; */
+form {
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
 
 
@@ -1762,6 +1804,13 @@ a.btn_01 {
 .scroll::after{
     margin-top: 50px;
 }
+}
 
-
+@media screen and (max-width: 420px) {
+.works_scroll_mark {
+    top: 20%;
+}
+.works_scroll_mark2 {
+    top: 20%;
+}
 }
