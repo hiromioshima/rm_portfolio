@@ -896,6 +896,23 @@ a.contact_button:hover {
     display: none;
 }
 
+/* ワークス詳細ページ　LP */
+.lp_mockup_box{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+.lp_mockup_box_sp{
+    display: none;
+}
+.lp_mockup_img{
+    width: 30%;
+}
+
+
 /* ワークス詳細ページ　バナー */
 .banner_mockup_box{
     display: flex;
@@ -1389,13 +1406,22 @@ input[name=question] {
 .sp_mockup_img2{
     display: none;
 }
+.lp_mockup_box{
+    display: none;
+}
 .banner_mockup_box{
     display: none;
+}
+.lp_mockup_box_sp{
+    display: flex;
+    justify-content: center;
 }
 .banner_mockup_box_sp{
     width: 100%;
     display: block;
+    justify-content: center;
 }
+
 .graphic_img_box{
     display: none;
 }
