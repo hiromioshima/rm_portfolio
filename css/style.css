@@ -1361,7 +1361,6 @@ input[name=question] {
     margin: 0 auto;
     overflow: hidden;
     display: block
-    
 }
 .sp_img2_lower img{
     margin: 0 auto;
@@ -1436,7 +1435,7 @@ input[name=question] {
 .banner_mockup_box_sp_img{
     display: block;
 }
-}
+
 
 .graphic_img_box{
     display: none;
@@ -1457,8 +1456,8 @@ form {
     width: 100%;
 }
 
-
 }
+
 
 
 
