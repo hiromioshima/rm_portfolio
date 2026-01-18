@@ -924,11 +924,17 @@ a.contact_button:hover {
 .banner_mockup_box_sp{
     display: none;
 }
+.banner_mockup_box_sp_img2{
+    display: none;
+}
 .banner_mockup_img{
     width: 30%;
 }
 .banner_square_img{
     width: 60%;
+}
+.banner_mockup_box_sp_img{
+    display: none;
 }
 
 /* ワークスの詳細ページ グラフィック */
@@ -1420,6 +1426,16 @@ input[name=question] {
     width: 100%;
     display: block;
     justify-content: center;
+}
+.banner_mockup_box_sp_2{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin-top: 40px;
+}
+.banner_mockup_box_sp_img{
+    display: block;
+}
 }
 
 .graphic_img_box{
